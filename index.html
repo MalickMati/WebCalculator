@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator | Mati ur Rehman</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>  
+    <link rel="shortcut icon" href="Images/Favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Calculator</h1>
+        <div class="main_body">
+            <div class="content">
+                <div class="row1 rows">
+                    <label for="Value_1"><b>Value 1:</b></label>
+                    <input type="number" name="Value_1" id="value1" placeholder="Enter a number"><br>
+                </div>
+                <div class="row2 rows">
+                    <label for="Value_2"><b>Value 2:</b></label>
+                    <input type="number" name="Value_2" id="value2" placeholder="Enter a number"><br>
+                </div>
+                <div class="row3 rows">
+                    <label for="result"><b>Result:</b></label>
+                    <p id="result"></p>
+                </div>
+                <div class="row4 rows">
+                    <input type="button" onclick="add();" value="Add">
+                    <input type="button" onclick="sub();" value="Subtract">
+                    <input type="button" onclick="mul();" value="Multiply">
+                    <input type="button" onclick="div();" value="Divide">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
